@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2015 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <color name="window_background">#FFF5F5F5</color>
+
+  <color name="bg_login">#26ae90</color>
+  <color name="bg_register">#2e3237</color>
+  <color name="bg_main">#428bca</color>
+  <color name="input_login">#222222</color>
+  <color name="input_login_hint">#999999</color>
+  <color name="input_register">#888888</color>
+  <color name="input_register_bg">#3b4148</color>
+  <color name="input_register_hint">#5e6266</color>
+  <color name="btn_login">#26ae90</color>
+  <color name="btn_login_bg">#eceef1</color>
+  <color name="lbl_name">#333333</color>
+  <color name="btn_logut_bg">#ff6861</color>
+
+
+  <color name="list_item_title">#fff</color>
+  <color name="list_background">#303030</color>
+  <color name="list_background_pressed">#992416</color>
+  <color name="list_divider">#272727</color>
+  <color name="counter_text_bg">#626262</color>
+  <color name="counter_text_color">#c5c4c4</color>
+
+
+  <color name="white">#ffffff</color>
+  <color name="feed_bg">#d3d6db</color>
+  <color name="feed_item_bg">#ffffff</color>
+  <color name="feed_item_border">#c2c3c8</color>
+  <color name="link">#0a80d1</color>
+  <color name="timestamp">#a0a3a7</color>
+
+
+  <color name="blue">#3366FF</color>
+  <color name="light_green">#66FF66</color>
+  <color name="dark_green">#338800</color>
+  <color name="orange">#FF6600</color>
+  <color name="purple">#9933FF</color>
+  <color name="yellow">#CCCC00</color>
+  <color name="red">#FF0000</color>
+  <color name="light_gray">#DDDDDD</color>
+  <color name="middle_gray">#444444</color>
+  <color name="dark_gray">#222222</color>
+  <color name="light_font">#FBFBFB</color>
+  <color name="grey_font">#4c898e</color>
+  <color name="text_shadow">#7F000000</color>
+  <color name="text_shadow_white">#FFFFFF</color>
+</resources>

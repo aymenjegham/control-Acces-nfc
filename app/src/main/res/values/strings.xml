@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2015 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">Gestion acces</string>
+
+  <string name="cheese_ipsum">Jarlsberg lancashire edam. Dolcelatte hard cheese brie st. agur blue
+    cheese caerphilly bavarian bergkase cheese and biscuits mascarpone. Cheeseburger swiss bavarian
+    bergkase cream cheese fromage frais cheesy feet port-salut airedale. St. agur blue cheese rubber
+    cheese caerphilly cheddar cheesecake cream cheese manchego lancashire. Roquefort squirty cheese
+    the big cheese.</string>
+    <string name="checkin">Checkin</string>
+    <string name="menu_settings">Settings</string>
+
+
+    <string name="font_awesome_android_icon">&#xf17b;</string>
+    <string name="font_awesome_area_chart_icon">&#xf003;</string>
+    <string name="font_awesome_cubes_icon">&#xf095;</string>
+    <string name="font_awesome_mobile_phone_icon">&#xf10b;</string>
+    <string name="font_awesome_delete_icon">&#xf00d;</string>
+
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+
+
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+
+    <string name="text_uid">UID</string>
+    <string name="text_rf_tech">RF Technology</string>
+
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="text_no_mfc_support_tag">Not a Mifare Classic tag!</string>
+    <string name="text_no_tag">There is no Mifare Classic tag.</string>
+    <string name="text_generic_info">Generic Info</string>
+    <string name="text_mf_info">Mifare Classic Info</string>
+    <string name="text_tag_type_and_manuf">Tag Type and Manufacturer</string>
+    <string name="text_rf_tech_14a">ISO/IEC 14443, Type A</string>
+    <string name="text_atqa">ATQA</string>
+    <string name="text_sak">SAK</string>
+    <string name="text_ats">ATS</string>
+
+    <string name="text_mem_size">Memory Size</string>
+    <string name="text_block_size">Block Size</string>
+    <string name="text_sector_count">Number of Sectors</string>
+    <string name="text_block_count">Number of Blocks</string>
+ <string name="text_no_mfc_support_device">This device does not
+        support Mifare Classic!</string>
+    <string name="action_more">Read More&#8230;</string>
+ <string name="text_tag_type_guess">\"Tag Type and Manufacturer\" might be
+        wrong.\nSee \"Help and Info\" for more information.</string>
+    <string name="info_no_tag_found">Error: There is no Mifare Classic tag</string>
+    <string name="info_new_tag_found">New tag found</string>
+    <string name="action_nfc">Goto NFC Settings</string>
+    <string name="action_exit_app">Exit App</string>
+    <string name="action_editor_only">Use App in \"Offline\" Mode</string>
+    <!-- Dialog messages -->
+    <string name="dialog_nfc_not_enabled_title">NFC not enabled</string>
+        <string name="dialog_no_nfc">No NFC hardware was found on your device.
+            You need an NFC enabled device in order to run this app properly.</string>
+        <string name="dialog_nfc_not_enabled">The NFC adapter is not enabled.
+            Please go to your Settings and enable it.</string>
+    <string name="dialog_no_mfc_support_device_title">No Mifare Classic support</string>
+  <string name="dialog_no_mfc_support_device">
+            <![CDATA[
+            Your device (due to hardware) does not support Mifare Classic! The only
+            thing possible is to display the UID and some other generic
+            information. Further I/O operations are impossible.
+            <br /><br /><b>Therefore, this app is pretty much useless for this device.</b>
+            <br /><br />You can view a list of known devices with no Mifare Classic
+            support at <a href="https://github.com/ikarus23/MifareClassicTool#general-information">github</a>.
+            If your device is not on that list, please write an
+            <a href="mailto:fooblubb@gmail.com">Email to developer</a>.
+            ]]>
+            </string>
+
+    <string name="dialog_no_mfc_support_tag_title">Not a Mifare Classic tag</string>
+        <string name="dialog_no_mfc_support_tag">
+            <![CDATA[
+            This tag is not compatible with the Mifare Classic technology!
+            Notice that this app is designed for Mifare Classic tags only!
+            <br /><br /><b>Please use another tag.</b>
+            <br /><br /><small>(Notice: In some rare cases this message could be
+            a false positive caused by multiple tags in the reader field or strange
+            ATQA+SAK values.)</small>
+            ]]>
+            </string>
+</resources>
